@@ -1,0 +1,195 @@
+/*css general*/
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+/*css barra de navegacion*/
+
+nav {
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+}
+
+h1 {
+    margin: 2rem 3rem 2rem 15rem;
+}
+
+.li-nav {
+    margin-top: 2.6rem;
+    margin-right: 3.5rem;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.li-nav:hover {
+    color: rgb(176, 107, 18);
+}
+
+.btn {
+    margin-left: 18rem;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+    box-shadow: 0.2rem 0.2rem rgba(57, 93, 21, 0.498);
+    background-color: rgba(71, 176, 225, 0.678);
+}
+/*css organizacion del contenedor principal*/
+.container {
+    margin: 3rem auto;
+    width: 80rem;
+    height: 55rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.principal {
+    border: 0.1rem solid grey;
+    width: 54rem;
+    height: 32rem;
+}
+
+.lateral-1 {
+    margin-left: 3rem;
+    width: 22rem;
+    height: 54rem;
+}
+
+.lateral-2 {
+    border: 0.1rem solid grey;
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 2.6rem;
+}
+
+.lateral-3 {
+    border: 0.1rem solid grey;
+    width: 100%;
+    height: 35rem;
+}
+
+.parte-baja {
+    border: 0.1rem solid grey;
+    width: 54rem;
+    height: 18rem;
+    position:absolute;
+    top: 45rem;
+}
+/*css de edicion del perfil*/
+.card-header{
+    background-color: rgb(31, 175, 173);
+    height: 10rem;
+    margin-bottom: 5rem;
+}
+
+.card-body{
+    background-color:antiquewhite;
+    height: 16rem;
+    padding: 0.1rem 0rem 0rem 4rem;
+}
+
+.avatar {
+    width: 12rem;
+    border: 0.1rem grey solid;
+    border-radius: 50%;
+    padding: 0.2rem;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+}
+
+.named {
+    font-size: 2.7rem;
+    position: relative;
+    right: 15rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 15rem;
+}
+
+.icon {
+    width: 1rem;
+}
+
+h3, .pa {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/*css de edicion barras laterales*/
+.icon-2 {
+    width: 2.5rem;
+}
+
+.per h3 {
+    display: flex;
+    height: 3.8rem;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Dancing Script', cursive;
+}
+
+.bcp {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    background-color: rgb(77, 75, 75);
+}
+
+.or{
+    border: 0.1rem solid gray;
+    border-radius: 40% ;
+    background-color: gray;
+    position: relative;
+    left:1rem;
+    margin-right: 2rem;
+}
+
+.icon-3 {
+    width: 5rem;
+}
+
+.enlace_lateral {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 0.1rem gray solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.bcp-2 {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    background-color: rgb(77, 75, 75);
+}
+
+.educ {
+    margin-left: 2rem;
+}
+
+.profesion {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.profesion1 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
